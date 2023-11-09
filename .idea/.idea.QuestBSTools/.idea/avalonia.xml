@@ -3,7 +3,11 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="QuestBSTools/App.axaml" value="QuestBSTools/QuestBSTools.csproj" />
         <entry key="QuestBSTools/MainWindow.axaml" value="QuestBSTools/QuestBSTools.csproj" />
+        <entry key="QuestBSTools/Styles/Colors.axaml" value="QuestBSTools/QuestBSTools.csproj" />
+        <entry key="QuestBSTools/Styles/SideBar.axaml" value="QuestBSTools/QuestBSTools.csproj" />
+        <entry key="QuestBSTools/Views/LoadingView.axaml" value="QuestBSTools/QuestBSTools.csproj" />
       </map>
     </option>
   </component>

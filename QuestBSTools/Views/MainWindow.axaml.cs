@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 
-namespace QuestBSTools;
+namespace QuestBSTools.Views;
 
 public partial class MainWindow : Window
 {
