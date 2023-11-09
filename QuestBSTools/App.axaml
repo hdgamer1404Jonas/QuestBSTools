@@ -1,11 +1,16 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="QuestBSTools.App"
+             xmlns:local="using:QuestBSTools"
              RequestedThemeVariant="Default">
              <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+  
     <Application.Styles>
-        <StyleInclude Source="Styles/Colors.axaml"></StyleInclude>
         <FluentTheme />
+        <StyleInclude Source="Styles/Materials.axaml"></StyleInclude>
     </Application.Styles>
 </Application>

@@ -1,21 +1,25 @@
 ﻿<UserControl xmlns="https://github.com/avaloniaui"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:viewModels="clr-namespace:QuestBSTools.ViewModels"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="QuestBSTools.Views.LoadingView">
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:QuestBSTools.ViewModels"
+             xmlns:sc="clr-namespace:QuestBSTools.Services"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="QuestBSTools.Views.LoadingView"
+             x:DataType="sc:UiService">
     <Design.DataContext>
-        <viewModels:LoadingViewModel/>
+        <vm:LoadingViewModel />
     </Design.DataContext>
     
+    
     <DockPanel HorizontalAlignment="Stretch">
-        <ExperimentalAcrylicBorder IsHitTestVisible="False" DockPanel.Dock="Top" MinHeight="30" Material="{DynamicResource MainBackgroundMaterial}"></ExperimentalAcrylicBorder>
+        <ExperimentalAcrylicBorder IsHitTestVisible="False" DockPanel.Dock="Top" MinHeight="30" Material="{DynamicResource MainBackgroundMaterial}" /> 
         <ExperimentalAcrylicBorder DockPanel.Dock="Left" Material="{DynamicResource MainBackgroundMaterial}" IsHitTestVisible="True">
-            <Panel Margin="50" IsHitTestVisible="True">
+            <Panel Margin="60" IsHitTestVisible="True">
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
-                    <TextBlock TextAlignment="Center">Loading QuestBSTools...</TextBlock>
-                    <ProgressBar IsIndeterminate="True" Width="200" Height="20" />
+                    <TextBlock TextAlignment="Center" FontSize="60">Loading QuestBSTools...</TextBlock>
+                    <ProgressBar IsIndeterminate="True" />
+                    <TextBlock TextAlignment="Center" FontSize="20" Text="{Binding LoadingText}"/>
                 </StackPanel>
             </Panel>
         </ExperimentalAcrylicBorder>

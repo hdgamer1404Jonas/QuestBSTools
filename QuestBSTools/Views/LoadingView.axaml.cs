@@ -9,9 +9,6 @@ public partial class LoadingView : UserControl
     public LoadingView()
     {
         InitializeComponent();
-#if DEBUG
-        this.AttachDevTools();
-#endif
     }
 
     private void InitializeComponent()

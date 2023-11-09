@@ -1,8 +1,18 @@
-﻿namespace QuestBSTools.ViewModels;
+﻿using System.Threading.Tasks;
+using QuestBSTools.Services;
 
-public class LoadingViewModel
+namespace QuestBSTools.ViewModels;
+
+
+
+public class LoadingViewModel : ViewModelBase
 {
-    public LoadingViewModel()
+    public UiService uiService { get; }
+    public string Status { get; set; } = "eee";
+
+    public LoadingViewModel(UiService service)
     {
+        uiService = service;
     }
+
 }

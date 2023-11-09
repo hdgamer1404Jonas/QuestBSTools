@@ -1,8 +1,16 @@
-﻿namespace QuestBSTools.ViewModels;
+﻿using QuestBSTools.Services;
 
-public class MainWindowViewModel: ViewModelBase
+namespace QuestBSTools.ViewModels;
+
+public class MainWindowViewModel : ViewModelBase
 {
-    public MainWindowViewModel()
+    public LoadingViewModel LoadingView { get; }
+    
+    public UiService uiService { get; }
+    
+    public MainWindowViewModel(LoadingViewModel loadingView, UiService service)
     {
+        LoadingView = loadingView;
+        uiService = service;
     }
 }

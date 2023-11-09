@@ -1,6 +1,9 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
+using QuestBSTools.Services;
+using QuestBSTools.ViewModels;
+using QuestBSTools.Views;
 
 namespace QuestBSTools;
 
@@ -15,7 +18,7 @@ public partial class App : Application
     {
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
-            desktop.MainWindow = new Views.MainWindow();
+            var uiService = new UiService(desktop);
         }
 
         base.OnFrameworkInitializationCompleted();

@@ -8,44 +8,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fdcf6dd-d101-4d82-a8ed-9566a21c9509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/DataFolders.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/ProcessUtilities.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/QuestBSTools.Kern.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/Resources/default-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/StartupChecks.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/Debug/net7.0/QuestBSTools.Kern.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/Debug/net7.0/QuestBSTools.Kern.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/Debug/net7.0/QuestBSTools.Kern.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/Debug/net7.0/QuestBSTools.Kern.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/Debug/net7.0/QuestBSTools.Kern.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/Debug/net7.0/QuestBSTools.Kern.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/QuestBSTools.Kern.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/QuestBSTools.Kern.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/QuestBSTools.Kern.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools.Kern/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools/Styles/Colors.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools/ViewModels/LoadingViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools/ViewModels/ViewModelBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools/Views/LoadingView.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools/Views/LoadingView.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/Serilog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuestBSTools/Assets/avalonia-logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuestBSTools/Services/UiService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuestBSTools/Styles/Materials.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuestBSTools/ViewLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/Avalonia.ReactiveUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/DynamicData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/ReactiveUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/Splat.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/System.Reactive.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.QuestBSTools/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QuestBSTools/.idea/avalonia.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.QuestBSTools/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QuestBSTools/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.QuestBSTools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QuestBSTools/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools.sln" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/App.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/App.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/App.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestBSTools/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/Views/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestBSTools/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestBSTools/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/QuestBSTools.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/QuestBSTools.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestBSTools/Styles/Colors.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestBSTools/ViewModels/LoadingViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/ViewModels/LoadingViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestBSTools/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestBSTools/Views/LoadingView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/Views/LoadingView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestBSTools/Views/LoadingView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/Views/LoadingView.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestBSTools/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestBSTools/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/Views/MainWindow.axaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/QuestBSTools.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/QuestBSTools.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/QuestBSTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/QuestBSTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/QuestBSTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/QuestBSTools.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestBSTools/bin/Debug/net7.0/Serilog.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/Avalonia/original.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/Avalonia/original.pdb" afterDir="false" />
@@ -58,7 +47,6 @@
       <change beforePath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/QuestBSTools.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/QuestBSTools.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/QuestBSTools.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/QuestBSTools.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/QuestBSTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/QuestBSTools.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/QuestBSTools.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/QuestBSTools.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/QuestBSTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/QuestBSTools.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/ref/QuestBSTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/ref/QuestBSTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/refint/QuestBSTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBSTools/obj/Debug/net7.0/refint/QuestBSTools.dll" afterDir="false" />
@@ -91,28 +79,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Jonas\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Jonas\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Jonas\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Jonas\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Jonas\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Jonas\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="QuestBSTools" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -143,6 +132,8 @@
       <updated>1699538687176</updated>
       <workItem from="1699538688539" duration="69000" />
       <workItem from="1699538862816" duration="8294000" />
+      <workItem from="1699554249422" duration="698000" />
+      <workItem from="1699554972862" duration="5359000" />
     </task>
     <servers />
   </component>

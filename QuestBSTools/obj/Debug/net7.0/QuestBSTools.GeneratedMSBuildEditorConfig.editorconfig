@@ -18,7 +18,7 @@ build_property.ProjectDir = H:\QuestBSTools\QuestBSTools\
 [H:/QuestBSTools/QuestBSTools/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[H:/QuestBSTools/QuestBSTools/Styles/Colors.axaml]
+[H:/QuestBSTools/QuestBSTools/Styles/Materials.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [H:/QuestBSTools/QuestBSTools/Views/LoadingView.axaml]

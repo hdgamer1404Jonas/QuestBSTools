@@ -1,6 +1,0 @@
-﻿<Style xmlns="https://github.com/avaloniaui"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <Style.Resources>
-        <ExperimentalAcrylicMaterial x:Key="MainBackgroundMaterial" TintColor="{DynamicResource MainBackground}" MaterialOpacity="0.85" TintOpacity="1" />
-    </Style.Resources>
-</Style>

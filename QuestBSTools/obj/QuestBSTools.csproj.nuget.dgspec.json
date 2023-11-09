@@ -55,17 +55,13 @@
               "target": "Package",
               "version": "[11.0.2, )"
             },
-            "Avalonia.Themes.Fluent": {
+            "Avalonia.ReactiveUI": {
               "target": "Package",
               "version": "[11.0.2, )"
             },
-            "ReactiveUI": {
+            "Avalonia.Themes.Fluent": {
               "target": "Package",
-              "version": "[19.5.1, )"
-            },
-            "Serilog": {
-              "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[11.0.2, )"
             }
           },
           "imports": [

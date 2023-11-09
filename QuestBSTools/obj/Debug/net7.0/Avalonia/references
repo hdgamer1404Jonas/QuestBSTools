@@ -15,12 +15,14 @@ C:\Users\Jonas\.nuget\packages\avalonia\11.0.2\ref\net6.0\Avalonia.Metal.dll
 C:\Users\Jonas\.nuget\packages\avalonia\11.0.2\ref\net6.0\Avalonia.MicroCom.dll
 C:\Users\Jonas\.nuget\packages\avalonia.native\11.0.2\lib\net6.0\Avalonia.Native.dll
 C:\Users\Jonas\.nuget\packages\avalonia\11.0.2\ref\net6.0\Avalonia.OpenGL.dll
+C:\Users\Jonas\.nuget\packages\avalonia.reactiveui\11.0.2\lib\net6.0\Avalonia.ReactiveUI.dll
 C:\Users\Jonas\.nuget\packages\avalonia.remote.protocol\11.0.2\lib\net6.0\Avalonia.Remote.Protocol.dll
 C:\Users\Jonas\.nuget\packages\avalonia.skia\11.0.2\lib\net6.0\Avalonia.Skia.dll
 C:\Users\Jonas\.nuget\packages\avalonia.themes.fluent\11.0.2\lib\net6.0\Avalonia.Themes.Fluent.dll
 C:\Users\Jonas\.nuget\packages\avalonia.themes.simple\11.0.2\lib\net6.0\Avalonia.Themes.Simple.dll
 C:\Users\Jonas\.nuget\packages\avalonia.win32\11.0.2\lib\net6.0\Avalonia.Win32.dll
 C:\Users\Jonas\.nuget\packages\avalonia.x11\11.0.2\lib\net6.0\Avalonia.X11.dll
+C:\Users\Jonas\.nuget\packages\dynamicdata\7.9.5\lib\net6.0\DynamicData.dll
 C:\Users\Jonas\.nuget\packages\harfbuzzsharp\2.8.2.3\lib\net6.0\HarfBuzzSharp.dll
 C:\Users\Jonas\.nuget\packages\microcom.runtime\0.11.0\lib\net5.0\MicroCom.Runtime.dll
 C:\Users\Jonas\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -35,8 +37,9 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\Microso
 C:\Users\Jonas\.nuget\packages\microsoft.win32.systemevents\6.0.0\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\mscorlib.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\netstandard.dll
-C:\Users\Jonas\.nuget\packages\serilog\3.1.0\lib\net7.0\Serilog.dll
+C:\Users\Jonas\.nuget\packages\reactiveui\18.3.1\lib\net6.0\ReactiveUI.dll
 C:\Users\Jonas\.nuget\packages\skiasharp\2.88.3\lib\net6.0\SkiaSharp.dll
+C:\Users\Jonas\.nuget\packages\splat\14.4.1\lib\net6.0\Splat.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.AppContext.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.Buffers.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.Collections.Concurrent.dll
@@ -119,6 +122,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.Numerics.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.Numerics.Vectors.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.ObjectModel.dll
+C:\Users\Jonas\.nuget\packages\system.reactive\5.0.0\lib\net5.0\System.Reactive.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.Reflection.DispatchProxy.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.Reflection.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.Reflection.Emit.dll
