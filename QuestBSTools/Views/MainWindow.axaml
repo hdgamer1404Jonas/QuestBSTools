@@ -18,6 +18,8 @@
     <DockPanel>
         <Panel DockPanel.Dock="Bottom" IsHitTestVisible="True">
             <UserControl Content="{Binding LoadingView}" IsVisible="{Binding !uiService.Loaded}"/>
+            <UserControl Content="{Binding NoADBView}" IsVisible="{Binding uiService.ADB}"></UserControl>
+            <UserControl Content="{Binding LoadedView}" IsVisible="{Binding !uiService.ADB}"></UserControl>
         </Panel>
     </DockPanel>
 </Window>

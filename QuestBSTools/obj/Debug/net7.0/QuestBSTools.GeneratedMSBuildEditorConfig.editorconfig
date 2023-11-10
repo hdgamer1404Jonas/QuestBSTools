@@ -21,8 +21,14 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [H:/QuestBSTools/QuestBSTools/Styles/Materials.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[H:/QuestBSTools/QuestBSTools/Views/LoadedView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [H:/QuestBSTools/QuestBSTools/Views/LoadingView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [H:/QuestBSTools/QuestBSTools/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[H:/QuestBSTools/QuestBSTools/Views/NoADBView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

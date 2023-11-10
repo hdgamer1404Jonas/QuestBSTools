@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EI7ufBIYEcgY22WnXnXZBbi5bWtBNf0ZF2sl+e/sDADpDj7kd4oj/ZV7EZGOMtmpZTyIkzH5es/Ma7NjewuAJQ==",
+  "dgSpecHash": "Fc2D5877wYqMDS+FYnXRYtniZ/GA9dLT9WtJk2maMOZvtwNA0YfM6W2pSk6zHWOE4ZLxut5ICQEI7OeMEKRd7g==",
   "success": true,
   "projectFilePath": "H:\\QuestBSTools\\QuestBSTools\\QuestBSTools.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\reactiveui\\18.3.1\\reactiveui.18.3.1.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.88.3\\skiasharp.nativeassets.linux.2.88.3.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.3\\skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",

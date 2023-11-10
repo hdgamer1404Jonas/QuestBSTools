@@ -1,0 +1,12 @@
+H:\QuestBSTools\Core\bin\Debug\net7.0\Core.deps.json
+H:\QuestBSTools\Core\bin\Debug\net7.0\Core.dll
+H:\QuestBSTools\Core\bin\Debug\net7.0\Core.pdb
+H:\QuestBSTools\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+H:\QuestBSTools\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+H:\QuestBSTools\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+H:\QuestBSTools\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+H:\QuestBSTools\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+H:\QuestBSTools\Core\obj\Debug\net7.0\Core.dll
+H:\QuestBSTools\Core\obj\Debug\net7.0\refint\Core.dll
+H:\QuestBSTools\Core\obj\Debug\net7.0\Core.pdb
+H:\QuestBSTools\Core\obj\Debug\net7.0\ref\Core.dll

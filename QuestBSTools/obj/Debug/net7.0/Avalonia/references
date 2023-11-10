@@ -22,6 +22,7 @@ C:\Users\Jonas\.nuget\packages\avalonia.themes.fluent\11.0.2\lib\net6.0\Avalonia
 C:\Users\Jonas\.nuget\packages\avalonia.themes.simple\11.0.2\lib\net6.0\Avalonia.Themes.Simple.dll
 C:\Users\Jonas\.nuget\packages\avalonia.win32\11.0.2\lib\net6.0\Avalonia.Win32.dll
 C:\Users\Jonas\.nuget\packages\avalonia.x11\11.0.2\lib\net6.0\Avalonia.X11.dll
+H:\QuestBSTools\Core\obj\Debug\net7.0\ref\Core.dll
 C:\Users\Jonas\.nuget\packages\dynamicdata\7.9.5\lib\net6.0\DynamicData.dll
 C:\Users\Jonas\.nuget\packages\harfbuzzsharp\2.8.2.3\lib\net6.0\HarfBuzzSharp.dll
 C:\Users\Jonas\.nuget\packages\microcom.runtime\0.11.0\lib\net5.0\MicroCom.Runtime.dll
@@ -38,6 +39,7 @@ C:\Users\Jonas\.nuget\packages\microsoft.win32.systemevents\6.0.0\lib\net6.0\Mic
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\mscorlib.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\netstandard.dll
 C:\Users\Jonas\.nuget\packages\reactiveui\18.3.1\lib\net6.0\ReactiveUI.dll
+C:\Users\Jonas\.nuget\packages\serilog\3.1.1\lib\net7.0\Serilog.dll
 C:\Users\Jonas\.nuget\packages\skiasharp\2.88.3\lib\net6.0\SkiaSharp.dll
 C:\Users\Jonas\.nuget\packages\splat\14.4.1\lib\net6.0\Splat.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.2\ref\net7.0\System.AppContext.dll
