@@ -1,4 +1,5 @@
-const { getLogger, init } = require('../utils/logger.js')
+const { getLogger, init, setOnPath } = require('../utils/globalVars.js')
+const { downloadAdbWIN, downloadAdbMAC, downloadAdbLIN } = require('../utils/adbDownload.js')
 
 function isWindows() {
     return process.platform === 'win32';
@@ -10,18 +11,6 @@ function isMac() {
 
 function isLinux() {
     return process.platform === 'linux';
-}
-
-function downloadAdbWIN() {
-
-}
-
-function downloadAdbMAC() {
-    
-}
-
-function downloadAdbLIN() {
-    
 }
 
 async function checkAdb() {
@@ -39,6 +28,7 @@ async function checkAdb() {
                 downloadAdbWIN();
             } else {
                 getLogger().info('ADB found on path, continuing...');
+                setOnPath(true);
             }
         });
 
@@ -57,6 +47,7 @@ async function checkAdb() {
                 downloadAdbMAC();
             } else {
                 getLogger().info('ADB found on path, continuing...');
+                setOnPath(true);
             }
         });
 
@@ -75,6 +66,7 @@ async function checkAdb() {
                 downloadAdbLIN();
             } else {
                 getLogger().info('ADB found on path, continuing...');
+                setOnPath(true);
             }
         });
 

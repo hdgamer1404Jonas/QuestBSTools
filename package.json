@@ -12,5 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^27.1.0"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.2"
   }
 }

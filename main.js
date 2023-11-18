@@ -1,6 +1,6 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('node:path')
-const { getLogger, init } = require('./utils/logger.js')
+const { getLogger, init } = require('./utils/globalVars.js')
 const checkAdb = require('./checks/checkadb.js')
 
 
