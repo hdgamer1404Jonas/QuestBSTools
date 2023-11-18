@@ -1,33 +1,34 @@
 const { getLogger, getAdbPath, setOnPath } = require('./globalVars.js');
-const fs = require('fs');
+const fs = require('fs').promises; // Use the promises version of fs for async/await
 const path = require('path');
 const axios = require('axios');
 const AdmZip = require('adm-zip');
 
 async function downloadAdbWIN() {
-    const adbPath = path.join(getAdbPath(), 'adb.exe');
     const adbZipUrl = 'https://dl.google.com/android/repository/platform-tools-latest-windows.zip';
     const adbZipPath = path.join(getAdbPath(), 'platform-tools-windows.zip');
 
     getLogger().info(getAdbPath());
 
-    // check if the zip file exists, if yes, delete it and all files ih the adb folder
+    // check if the zip file exists, if yes, delete it and all files in the adb folder
     try {
         await fs.access(adbZipPath);
         getLogger().info('ADB zip file found, deleting...');
-        await fs.rm(adbZipPath);
+        await fs.unlink(adbZipPath);
     } catch {
         getLogger().info('ADB zip file not found, continuing...');
     }
 
-    // download the zip file, wait it to finish, log the progress every megabyte
+    // download the zip file, wait for it to finish, log the progress every megabyte
     getLogger().info('Downloading ADB...');
-    const writer = await fs.createWriteStream(adbZipPath);
     const response = await axios({
         url: adbZipUrl,
         method: 'GET',
         responseType: 'stream',
     });
+
+    const writer = await fs.createWriteStream(adbZipPath, { flags: 'w' });
+
 
     response.data.pipe(writer);
 
@@ -45,14 +46,11 @@ async function downloadAdbWIN() {
 
     getLogger().info('Download finished');
 
-
     // extract the contents of the zip file directly to the adb folder
     getLogger().info('Extracting ADB...');
     const zip = new AdmZip(adbZipPath);
     zip.extractAllTo(getAdbPath(), true);
     getLogger().info('Extraction finished');
-
-    return;
 }
 
 async function downloadAdbMAC() {
@@ -62,23 +60,24 @@ async function downloadAdbMAC() {
 
     getLogger().info(getAdbPath());
 
-    // check if the zip file exists, if yes, delete it and all files ih the adb folder
+    // check if the zip file exists, if yes, delete it and all files in the adb folder
     try {
         await fs.access(adbZipPath);
         getLogger().info('ADB zip file found, deleting...');
-        await fs.rm(adbZipPath);
+        await fs.unlink(adbZipPath);
     } catch {
         getLogger().info('ADB zip file not found, continuing...');
     }
 
-    // download the zip file, wait it to finish, log the progress every megabyte
+    // download the zip file, wait for it to finish, log the progress every megabyte
     getLogger().info('Downloading ADB...');
-    const writer = await fs.createWriteStream(adbZipPath);
     const response = await axios({
         url: adbZipUrl,
         method: 'GET',
         responseType: 'stream',
     });
+
+    const writer = fs.createWriteStream(adbZipPath);
 
     response.data.pipe(writer);
 
@@ -101,16 +100,13 @@ async function downloadAdbMAC() {
     const zip = new AdmZip(adbZipPath);
     zip.extractAllTo(getAdbPath(), true);
     getLogger().info('Extraction finished');
-
-
-    return;
 }
 
 function downloadAdbLIN() {
     // run the apt install command
     const { exec } = require('child_process');
     exec('sudo apt install adb', (error, stdout, stderr) => {
-        if(error) {
+        if (error) {
             getLogger().error('Failed to install ADB');
             getLogger().error(error);
             return;
@@ -123,5 +119,5 @@ function downloadAdbLIN() {
 module.exports = {
     downloadAdbWIN,
     downloadAdbMAC,
-    downloadAdbLIN
-}
+    downloadAdbLIN,
+};

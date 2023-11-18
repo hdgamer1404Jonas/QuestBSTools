@@ -1,8 +1,11 @@
 const Logger = require('./logging.js')
 const fs = require('fs').promises;
 const path = require('node:path');
+const adb = require('./adb.js');
+const { getAdbPath, setAdbPath } = require('./adbPath.js');
 
 let logger;
+let adbInstance;
 
 let platform = null;
 let appdataPath = null;
@@ -63,6 +66,14 @@ async function init(mainwindow) {
         getLogger().info('ADB folder not found, creating...');
         await fs.mkdir(adbPath);
     }
+
+    if (isOnPath) {
+        setAdbPath('adb');
+    } else {
+        setAdbPath(adbExePath);
+    }
+
+    adbInstance = new adb();
 }
 
 function getLogger() {
@@ -81,16 +92,21 @@ function getLogPath() {
     return logPath;
 }
 
-function getAdbPath() {
-    return adbPath;
-}
-
 function isAdbOnPath() {
     return isOnPath;
 }
 
 function setOnPath(value) {
     isOnPath = value;
+}
+
+function getAdbExePath() {
+    return adbExePath;
+}
+
+function getAdb() {
+    return adbInstance;
+
 }
 
 module.exports = {
@@ -102,4 +118,6 @@ module.exports = {
     getAdbPath,
     isAdbOnPath,
     setOnPath,
+    getAdbExePath,
+    getAdb
 }

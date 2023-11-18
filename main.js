@@ -2,6 +2,7 @@ const { app, BrowserWindow } = require('electron')
 const path = require('node:path')
 const { getLogger, init } = require('./utils/globalVars.js')
 const checkAdb = require('./checks/checkadb.js')
+const checkDevices = require('./checks/checkDevices.js')
 
 
 function getFrontEndFile(page) {
@@ -22,7 +23,9 @@ async function createWindow () {
 
     await init(win);
 
-    await checkAdb();
+    await checkAdb().then(() => {
+        checkDevices();
+    });
 }
 
 app.whenReady().then(() => {
